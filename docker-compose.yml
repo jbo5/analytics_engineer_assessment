@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: dbt_user
+      POSTGRES_PASSWORD: dbt_password
+      POSTGRES_DB: dbt_db
+    ports:
+      - '5432:5432'
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  dbt:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/analytics_engineer_assessment
+    working_dir: /analytics_engineer_assessment
+    environment:
+      DBT_USER: dbt_user
+      DBT_PASSWORD: dbt_password
+      DBT_HOST: db
+      DBT_PORT: 5432
+      DBT_DATABASE: dbt_db
+    depends_on:
+      - db
+
+volumes:
+  postgres_data:
