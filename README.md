@@ -10,18 +10,23 @@ For technical assistance, please contact:
 ## Environment Setup
 
 ### Prerequisites
-- Docker installed on your local machine
+- Docker installed on your local machine (https://docker.com/)
 - SQL IDE (recommended: [DBeaver](https://dbeaver.io/))
 
 ### Installation Steps
-1. Fork this Github repo or download the repo zip file to your local machine
-2. Open the project directory in your preferred text editor
-3. From terminal, navigate to the project's root directory
-4. Execute the following commands:
+1. Fork this Github repo (and clone your forked copy) or download the repo zip file to your local machine
+2. Make sure Docker Desktop is running (if you have Win or Mac)
+3. Open the project directory in your preferred text editor
+4. From terminal, navigate to the project's root directory (should be able to see all the project files)
+5. Execute the following commands:
 ```bash
 docker compose up -d --build
 docker exec -it analytics_engineer_assessment-dbt-1 /bin/bash
 ```
+
+**NOTE:** The docker exec may fail if your docker container has a different name. You may have to look at you docker
+desktop to find the container name or run `docker ps` in terminal to get the name of the dbt container.
+
 5. Verify setup with `dbt debug`
 6. Load seed data with `dbt seed`
 
@@ -45,9 +50,9 @@ The assessment uses a PostgreSQL database with the following credentials:
 
 **1. Data Quality: Lead Sources Deduplication**
 - Create a dbt model `lead_sources` in the `staging` schema
-- Remove duplicate records from the lead_sources landing table
-- Ensure uniqueness at the `lead_source_code` grain
-- Implement appropriate testing to maintain data integrity
+  - Remove duplicate records from the lead_sources landing table
+  - Ensure uniqueness at the `lead_source_code` grain
+  - Implement appropriate testing to maintain data integrity
 
 **2. Sales Analysis: Weekly Trends**
 - Create a dbt model `company_sales` in the `gold` schema
