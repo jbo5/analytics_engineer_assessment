@@ -1,0 +1,147 @@
+lead_source_code,lead_source_code_description,response_channel,response_channel_category
+45X,Paid Search,Online,Direct
+48X,Print,Online,Direct
+55G,Email,Online,Direct
+55T,Email,Online,Direct
+55X,Email,Online,Direct
+56G,Insert Club,Online,Direct
+56X,Insert Club,Online,Direct
+59X,Referral,Online,Direct
+63G,Internet Club,Online,Direct
+63X,Internet Club,Online,Direct
+64,MLTA Transactional Site,SISU,Direct
+65,365 Transactional Site,SISU,Direct
+67G,Internet (Direct/Organic Traffic),Online,Direct
+67X,Internet (Direct/Organic Traffic),Online,Direct
+73X,Insert,Online,Direct
+78G,Print Club,Online,Direct
+78X,Print Club,Online,Direct
+79G,Email Club,Online,Direct
+79X,Email Club,Online,Direct
+82G,Meemic,Online,Direct
+82X,Meemic,Online,Direct
+83,GIWL Transactional Site,SISU,Direct
+84,MPA Transactional Site,SISU,Direct
+86G,Video Ad,Online,Direct
+86X,Video Ad,Online,Direct
+90G,Internet Display Ad,Online,Direct
+90X,Internet Display Ad,Online,Direct
+91G,Social Media,Online,Direct
+91X,Social Media,Online,Direct
+92G,Social Media Club,Online,Direct
+92X,Social Media Club,Online,Direct
+93G,Anonymous,Online,Direct
+93X,Anonymous,Online,Direct
+94G,Ethos Partnership,Online,Direct
+94X,Ethos Partnership,Online,Direct
+95X,Broadmarket Email,Online,Direct
+96G,Broadmarket 3rd Party,Online,Direct
+96X,Broadmarket 3rd Party,Online,Direct
+97,Direct Term Phone Enrollments,SISU,Direct
+98G,Search (Clubs),Online,Direct
+98X,Search (Clubs),Online,Direct
+99G,Broadmarket 3rd Party (Clubs),Online,Direct
+99X,Broadmarket 3rd Party (Clubs),Online,Direct
+A1 ,Direct Term Remark Microsite,Vanity URL,Direct
+A3 ,Onuu,Mail,Direct
+96,Broadmarket 3rd Party,AAA Life DSU,Agent
+85,Protocol,AAA Life DSU,Agent
+86,Video Ad,AAA Life DSU,Agent
+87,Club Referral (SalesForce.com),Field DSU Pod,Agent
+88,DSU Toll Free & Local Inbound Calls,AAA Life DSU,Agent
+89,Member Svs Transfers to DSU,AAA Life DSU,Agent
+90,Internet Display Ad,AAA Life DSU,Agent
+91,Social Media,AAA Life DSU,Agent
+92,Social Media Club,AAA Life DSU,Agent
+93,Anonymous,AAA Life DSU,Agent
+94,Ethos Partnership,AAA Life DSU,Agent
+95,Broadmarket Email,AAA Life DSU,Agent
+98,Search (Clubs),AAA Life DSU,Agent
+99,Broadmarket 3rd Party (Clubs),AAA Life DSU,Agent
+A2 ,Iptiq,DSU Ext,Agent
+IO ,Integrated Offer,Field,Agent
+LC ,TLC Agent Sold,Field,Agent
+LD ,Life Desk Applications,Field,Agent
+LR ,Life Desk Referrals to Omaha SC,AAA Life DSU,Agent
+NA ,Unknown,Field,Agent
+10,Michigan Living,Field,Agent
+11,Aip,Field,Agent
+13,Walk In,Field,Agent
+14,Newspaper Ads,Field,Agent
+15,Signs in Branch,Field,Agent
+16,Employee,Field,Agent
+17,DSU Ext,DSU Ext,Agent
+18,Referral,Field,Agent
+19,Out-Of-State,Field,Agent
+20,P/C No Source,Field,Agent
+21,ML23 Conversion,Field,Agent
+22,Pre 4/96,Field,Agent
+27,Member Life Information Area,Field,Agent
+30,Internet,Field,Agent
+40,Mail,AAA Life DSU,Agent
+41,NSC NSCPER Ticket,AAA Life DSU,Agent
+42,NSC Member Mart Web Based,AAA Life DSU,Agent
+43,NSC Phone Calls,AAA Life DSU,Agent
+44,NSC Web Based Tickets,AAA Life DSU,Agent
+45,Paid Search,AAA Life DSU,Agent
+46,NSC Banner Ads,AAA Life DSU,Agent
+47,NSC INSWEB,AAA Life DSU,Agent
+48,Print,AAA Life DSU,Agent
+49,NSC Web Phone Calls,AAA Life DSU,Agent
+50,Quick Quote,AAA Life DSU,Agent
+51,Quote Smith,AAA Life DSU,Agent
+52,Reliaquote,AAA Life DSU,Agent
+53,Banner Ads: Google,AAA Life DSU,Agent
+54,Banner Ads: Insure.Com,AAA Life DSU,Agent
+55,Email,AAA Life DSU,Agent
+56,Insert Club,AAA Life DSU,Agent
+57,Quarterly News Letter,AAA Life DSU,Agent
+58,CSAA,AAA Life DSU,Agent
+59,Referral,AAA Life DSU,Agent
+60,OTHER,AAA Life DSU,Agent
+61,Credo Aggregated Leads,AAA Life DSU,Agent
+62,Direct Mail Web,AAA Life DSU,Agent
+63,Internet Club,AAA Life DSU,Agent
+66,AAALife.com Club GeneratedLead,AAA Life DSU,Agent
+67,Internet (Direct/Organic Traffic),AAA Life DSU,Agent
+68,ACG Transfers,AAA Life DSU,Agent
+69,eStara Push to Talk,AAA Life DSU,Agent
+70,Google AdSense,AAA Life DSU,Agent
+71,Non-Completers,AAA Life DSU,Agent
+72,Club Advertising,AAA Life DSU,Agent
+73,Insert,AAA Life DSU,Agent
+74,BRC Transfers,AAA Life DSU,Agent
+75,Arizona Leads,AAA Life DSU,Agent
+76,ACS Call Center Transfers,AAA Life DSU,Agent
+77,NCNU Call Center Transfers,AAA Life DSU,Agent
+78,Print Club,AAA Life DSU,Agent
+79,Email Club,AAA Life DSU,Agent
+80,AAA Utah Transfers,AAA Life DSU,Agent
+81,AAA Washington Call Transfers,AAA Life DSU,Agent
+82,Meemic,AAA Life DSU,Agent
+00,No Source,Field,Agent
+01,Other,Field,Agent
+02,Personal Family/Friend,Field,Agent
+03,Personal Observation,Field,Agent
+04,Direct Mail - Agent,Field,Agent
+05,Direct Mail - Home Office,Field,Agent
+06,Current Client,Field,Agent
+07,GA/Branch Referral,Field,Agent
+08,Cold Call,Field,Agent
+09,Term Conversion,Field,Agent
+12,ADB,Mail,Direct
+23,Brochure,Mail,Direct
+24,Direct Mail - Renkim,Mail,Direct
+25,Direct Mail - ADB,Mail,Direct
+26,AAA National Conversion,Mail,Direct
+28,AAA Life PDA Conversion,Mail,Direct
+29,Direct Mail - Lockbox,Mail,Direct
+31,Direct Mail - Exela,Mail,Direct
+32,Direct Mail - AAA Life,Mail,Direct
+34,Online Enrollments - Members,Vanity URL,Direct
+34A,Online Enrollments - Members,Vanity URL,Direct
+34G,Online Enrollments - Members,Vanity URL,Direct
+34M,Online Enrollments - Members,Vanity URL,Direct
+34T,Online Enrollments - Members,Vanity URL,Direct
+40X,Mail,Online,Direct
+45G,Paid Search,Online,Direct
