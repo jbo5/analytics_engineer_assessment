@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: example
+    description: "this is an example dbt model that shows the total sales and avg sales by reporting group company"
+    meta:
+        needs_data_discovery: False
+
+    columns:
+      - name: reporting_group_company_level
+        description: "Company level reporting groups"
+        tests:
+          - not_null
+          - unique
+      - name: total_sales
+        description: "a sum aggregation on the settled_sales_production measure from our sales transaction table"
+      - name: avg_sales_per_policy
+        description: "an average aggregation on the settled_sales_production measure from our sales transaction table"
+      - name: last_refreshed_at
+        description: "a timestamp of the last time this record was refreshed"
