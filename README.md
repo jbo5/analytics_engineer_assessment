@@ -39,7 +39,7 @@ The assessment uses a PostgreSQL database with the following credentials:
 ## Technical Assessment
 
 ### Project Structure
-Database Schema
+![img.png](img.png)
 
 ### Requirements
 
