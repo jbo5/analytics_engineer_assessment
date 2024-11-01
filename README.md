@@ -14,7 +14,7 @@ For technical assistance, please contact:
 - SQL IDE (recommended: [DBeaver](https://dbeaver.io/))
 
 ### Installation Steps
-1. Unzip the assessment project to your local machine
+1. Fork this Github repo or download the repo zip file to your local machine
 2. Open the project directory in your preferred text editor
 3. From terminal, navigate to the project's root directory
 4. Execute the following commands:
@@ -72,6 +72,16 @@ The assessment uses a PostgreSQL database with the following credentials:
   - Rank products within each `state_of_issue`
   - No tied rankings within regions
   - Most popular product receives rank 1
+
+**4. Quarterly Performance Analysis**
+- Create a dbt model `quarterly_sales_performance` in the `gold` schema that calculates:
+  - Total sales amount (`settled_sales_production`) and count (`settled_count`) by quarter and product line
+  - Average quarterly sales for each product line
+  - Rolling 4-quarter average sales for each product line (current quarter and previous 3 quarters)
+  - Quarter-over-Quarter (QoQ) growth percentage in sales
+- Handle missing quarters appropriately
+- Include all product lines even if they have no sales in a particular quarter
+- Results should be ordered by product line and quarter to show sales performance progression
 
 ## Technical Notes
 - The environment consists of two Docker containers:
