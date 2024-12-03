@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: regional_product_analysis
+    description: >
+      Analyzes product popularity by region and ranks products based on the number of policies sold.
+    columns:
+      - name: state_of_issue
+        description: State where the policy was issued.
+      - name: product_rank
+        description: Ranking of products based on popularity in the region.
+      - name: total_settled_count
+        description: Total number of policies sold for the product.

@@ -1,0 +1,31 @@
+version: 2
+
+# Define sources first
+sources:
+  - name: model_landing
+    description: >
+      Raw tables in the landing schema used as sources for transformations.
+    tables:
+      - name: clubs
+        description: Club information for sales analysis.
+      - name: sales
+        description: Sales transactions with details on policies, settled count, and production.
+      - name: products
+        description: Product details including group and line classifications.
+      - name: lead_sources
+        description: Lead source data used for deduplication and reporting.
+
+# Then define models
+models:
+  - name: stg_lead_sources
+    description: >
+      Deduplicates the lead_sources table and ensures uniqueness by lead_source_code.
+    columns:
+      - name: lead_source_code
+        description: Unique code for the lead source.
+        tests:
+          - unique
+          - not_null
+      - name: lead_source_code_description
+        description: Description of the lead source.
+

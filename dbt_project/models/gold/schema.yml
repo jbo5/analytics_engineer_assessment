@@ -1,0 +1,24 @@
+version: 2
+
+models:
+  - name: gold_company_sales
+    description: >
+      Aggregates weekly sales metrics with dimensions such as product line, region, and response channel.
+    columns:
+      - name: week_start
+        description: Start date of the week.
+      - name: total_settled_count
+        description: Total number of policies settled in the week.
+      - name: total_sales_production
+        description: Total sales production for the week.
+
+  - name: gold_quarterly_sales_performance
+    description: >
+      Calculates quarterly sales metrics, rolling averages, and QoQ growth by product line.
+    columns:
+      - name: quarter_start
+        description: Start date of the quarter.
+      - name: rolling_4q_sales_avg
+        description: Rolling 4-quarter average sales for the product line.
+      - name: qoq_growth_percentage
+        description: Quarter-over-quarter growth percentage in sales.
