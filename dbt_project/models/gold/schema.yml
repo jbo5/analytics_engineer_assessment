@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: gold_company_sales
+  - name: company_sales
     description: >
       Aggregates weekly sales metrics with dimensions such as product line, region, and response channel.
     columns:
@@ -12,7 +12,7 @@ models:
       - name: total_sales_production
         description: Total sales production for the week.
 
-  - name: gold_quarterly_sales_performance
+  - name: quarterly_sales_performance
     description: >
       Calculates quarterly sales metrics, rolling averages, and QoQ growth by product line.
     columns:
